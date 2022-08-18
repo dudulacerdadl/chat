@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> lin
+    <title>Chat</title>
+</head>
+
+<body>
+    <session id="contatos">Contatos</session>
+    <session id="main">
+        <div class="bodymessage">
+            Corpo da mensagem
+            <div class="messages recebida">Mensagem recebida</div>
+            <div class="messages enviada">Mensagem enviada</div>
+        </div>
+        <form action="./script.php" method="post">
+            <textarea name="digitar" id="digitar" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea> <button id="submit" type="submit">Enviar</button>
+        </form>
+    </session>
+</body>
+
+</html>
